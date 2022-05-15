@@ -10,7 +10,7 @@ RUN pip install -U ansible
 # Install Docker
 
 RUN apt-get update && \
-apt-get -y install apt-transport-https \
+apt-get -y install apt-transport-https \ Shareef
      ca-certificates \
      curl \
      gnupg2 \
@@ -31,3 +31,4 @@ RUN usermod -aG docker jenkins
 
 USER jenkins
 
+Shareef
